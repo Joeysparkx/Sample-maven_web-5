@@ -5,9 +5,9 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
-	<name>maven-web-application</name>
+	<name>maven-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.232.32.168:9000/</sonar.host.url>
+		<sonar.host.url>http://107.21.29.140:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,19 +98,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.108.94:8081/repository/flipkart-releases/</url>
+	      <url>http://75.101.230.230:8081/repository/swa5-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.108.94:8081/repository/flipkart-snapshot/</url>
+	      <url>http://75.101.230.230:8081/repository/swa5-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-application</finalName>
+		<finalName>maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
